@@ -52,7 +52,13 @@ Don't worry, we`re about to reinstall it, along with everything else we need.
 
 Now for the fun part! Head on over to [this page](http://makersquare-student-boxen.herokuapp.com/), copy the line of text you see, and paste it into the terminal. Press enter, then wait as it asks first for your user password on OS X, and then for your GitHub username and password (maybe).
 
-From there, sit back and relax as the script does its thing. When it's all over with, you'll be rocking a souped up dev environment.
+From there, sit back and relax as the script does its thing. When it's all over with, run this:
+
+```console
+echo 'source /opt/boxen/env.sh' >> ~/.bashrc
+```
+
+Now you're rocking a souped up dev environment!
 
 ## Optional
 
@@ -60,6 +66,12 @@ From there, sit back and relax as the script does its thing. When it's all over 
 
 ```console
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+```
+
+After that's finished up, run this:
+
+```console
+echo 'source /opt/boxen/env.sh' >> ~/.zshrc
 ```
 
 ## There is no step 4
