@@ -52,7 +52,6 @@ node default {
   # core modules, needed for most things
   include dnsmasq
   include git
-  include hub
   include nginx
 
   # include custom packages for MakerSquare student machines
