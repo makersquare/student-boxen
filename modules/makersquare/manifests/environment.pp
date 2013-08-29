@@ -1,6 +1,4 @@
 class makersquare::environment {
-  include github_for_mac
-
   include stdlib
 
   include alfred
@@ -21,14 +19,14 @@ class makersquare::environment {
   include dropbox
 
   class { 'ruby::global':
-    version => '2.0.0'
+    version => '2.0.0-p247'
   }
 
   class { 'nodejs::global':
-    version => 'v0.10.5'
+    version => 'v0.10.13'
   }
 
-  include postgresql
+  include postgresapp
   include redis
 
   package {
