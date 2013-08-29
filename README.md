@@ -74,6 +74,8 @@ After that's finished up, run this:
 echo 'source /opt/boxen/env.sh' >> ~/.zshrc
 ```
 
+You should also [install our dotfiles](http://github.com/makersquare/dotfiles), which are the configuration files that control your development environment. Ours are tailored to the type of development we'll be doing at MakerSquare, and they'll keep your environment close to what we run in the lab.
+
 ## There is no step 4
 
 You're all set! Your setup is now mostly identical to the way our lab machines work.
