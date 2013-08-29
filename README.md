@@ -99,6 +99,8 @@ Quite a number of things, actually! Here are the highlights:
 | [Dropbox](https://www.dropbox.com/)                 | A cloud-based filesharing service.                                           |
 | [Postgres.app](http://postgresapp.com)              | An easy way to run [Postgres](http://www.postgresql.org/) databases locally. |
 
+Don't worry if you already have any of this stuff - Boxen is smart enough to skip over anything that's been previously installed.
+
 ## Troubleshooting
 
 Questions/comments/concerns? Grab an instructor and let us know! If you're not behing the Big Blue Doors, just email mike or matt [at] themakersquare.com and we'll get you squared away.
