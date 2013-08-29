@@ -60,7 +60,7 @@ echo 'source /opt/boxen/env.sh' >> ~/.bashrc
 
 Now you're rocking a souped up dev environment!
 
-## Optional
+### Optional
 
 …but highly recommended. You should install `oh-my-zsh`, a package for working with the terminal, as it will make your life easier:
 
@@ -76,9 +76,28 @@ echo 'source /opt/boxen/env.sh' >> ~/.zshrc
 
 You should also [install our dotfiles](http://github.com/makersquare/dotfiles), which are the configuration files that control your development environment. Ours are tailored to the type of development we'll be doing at MakerSquare, and they'll keep your environment close to what we run in the lab.
 
-## There is no step 4
+### There is no step 4
 
 You're all set! Your setup is now mostly identical to the way our lab machines work.
+
+## What was installed?
+
+Quite a number of things, actually! Here are the highlights:
+ 
+| Package                                             | Purpose                                                                      |
+| --------------------------------------------------- | ---------------------------------------------------------------------------- |
+| [homebrew](http://brew.sh/)                         | A "package manager" for OS X. Makes installing command-lines tools a snap.   |
+| [git](http://brew.sh/)                              | A source code management tool. 												 |
+| Ruby 2.0.0-p247                                     | The latest stable version of Ruby. 										     |
+| [Alfred](http://www.alfredapp.com/)                 | An (awesome) quick program launcher.  										 |
+| [SizeUp](http://www.irradiatedsoftware.com/sizeup/) | An easy-to-use window resizer. 												 |
+| [iTerm2](http://www.iterm2.com/)                    | A replacement for the built-in Terminal app. Much more customizable. 	     |
+| [zsh](http://www.zsh.org/)                          | A replacement for Bash, the default shell environment. 						 |
+| [Sublime Text 2](http://www.sublimetext.com/)       | A beautiful, easy-to-use text editor.                                        |
+| [Mou](http://mouapp.com/)                           | A [Markdown](http://daringfireball.net/projects/markdown/) text editor.      |
+| Chrome, Firefox                                     | Web browsers. (You probably knew that.)                                      |
+| [Dropbox](https://www.dropbox.com/)                 | A cloud-based filesharing service.                                           |
+| [Postgres.app](http://postgresapp.com)              | An easy way to run [Postgres](http://www.postgresql.org/) databases locally. |
 
 ## Troubleshooting
 
