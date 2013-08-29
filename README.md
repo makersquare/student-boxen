@@ -78,6 +78,8 @@ echo 'source /opt/boxen/env.sh' >> ~/.zshrc
 
 You're all set! Your setup is now mostly identical to the way our lab machines work.
 
-Questions/comments/concerns? Grab an instructor and let us know!
+## Troubleshooting
+
+Questions/comments/concerns? Grab an instructor and let us know! If you're not behing the Big Blue Doors, just email mike or matt [at] themakersquare.com and we'll get you squared away.
 
 
