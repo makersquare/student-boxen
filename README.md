@@ -55,7 +55,7 @@ Now for the fun part! Head on over to [this page](http://makersquare-student-box
 From there, sit back and relax as the script does its thing. When it's all over with, run this:
 
 ```console
-echo 'source /opt/boxen/env.sh' >> ~/.bashrc
+echo 'source /opt/boxen/env.sh' >> ~/.zshrc
 ```
 
 Now you're rocking a souped up dev environment!
@@ -103,6 +103,18 @@ Don't worry if you already have any of this stuff - Boxen is smart enough to ski
 
 ## Troubleshooting
 
-Questions/comments/concerns? Grab an instructor and let us know! If you're not behing the Big Blue Doors, just email mike or matt [at] themakersquare.com and we'll get you squared away.
+The easiest way to clear up errors on an install is to try turning it off and on again:
 
+```console
+sudo rm -rf /opt/boxen
+```
 
+This will delete the boxen files entirely, allowing you to start over from the beginning. Be sure to **PASTE THAT COMMAND IN EXACTLY**, as mistyping it could, ya know, destroy every file on your computer.
+
+The most likely source of pain is forgetting to source the boxen environment:
+
+```console
+echo 'source /opt/boxen/env.sh' >> ~/.zshrc
+```
+
+Questions/comments/concerns? Grab an instructor and let us know! If you're not behind the Big Blue Doors, just email mike or matt [at] themakersquare.com and we'll get you squared away.
