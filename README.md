@@ -4,11 +4,35 @@ Getting a new development environment up and running can be a laborious process.
 
 Unfortunately, the below instructions only apply to folks running OS X. If you aren't on a Mac, never fear! One of our intrepid instructors can still help you get set up.
 
+![Testimonial](https://f.cloud.github.com/assets/2220/1468788/82ce5ab4-4598-11e3-8eaf-1ec263c107be.png)
+
+<center><em>The reviews are in.</em></center>
+
 ## Dependencies
 
-**Install the Xcode Command Lines Tools and/or full Xcode.** This will grant you the most predictable behavior in building apps like MacVim.
+Before we get started, we'll need to **install the Xcode Command Line Tools.** This installs a command line program known as `gcc`, which is used to compile C programs from their source. Boxen will use this to install a number of applications for us.
 
-How do you do it?
+### Mavericks
+
+If you're running Mavericks, simply run the following command in the terminal:
+
+```console
+xcode-select --install
+```
+
+![Xcode popup window](http://macops.ca/wp-content/uploads/2013/10/xcodeselect-install.png)
+
+In the popup window, click the "Install" button. After that finishes installing, run the following command:
+
+```console
+sudo gcc
+```
+
+You'll be prompted for your OS X password, at which point you'll need to hit the enter key to view the license agreement. At that point, simply press "q", type out "agree", and then hit enter. Now you're all set!
+
+### Lion/Mountain Lion
+
+If you're running Lion or Mountain Lion, follow these instructions:
 
 1. Install Xcode from the Mac App Store.
 2. Open Xcode.
@@ -18,7 +42,11 @@ How do you do it?
 
 You'll also need to create a GitHub account, if you haven't already.
 
+### Snow Leopard
+
 Are you running on Snow Leopard? Then you'll just need to [download and install this](https://github.com/downloads/kennethreitz/osx-gcc-installer/GCC-10.6.pkg) instead.
+
+Unfortunately, **Boxen won't run on Snow Leopard**. But never fear! One of our intrepid instructors can get you set up with a manual install. Just be sure to install the GCC package linked above beforehand.
 
 ## WARNING
 
