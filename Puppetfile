@@ -4,10 +4,26 @@
 # default. This ensures at least the ability to construct a basic
 # environment.
 
-def github(name, version, options = nil)
-  options ||= {}
-  options[:repo] ||= "boxen/puppet-#{name}"
-  mod name, version, :github_tarball => options[:repo]
+# Shortcut for a module from GitHub's boxen organization
+def github(name, *args)
+  options ||= if args.last.is_a? Hash
+    args.last
+  else
+    {}
+  end
+
+  if path = options.delete(:path)
+    mod name, :path => path
+  else
+    version = args.first
+    options[:repo] ||= "boxen/puppet-#{name}"
+    mod name, version, :github_tarball => options[:repo]
+  end
+end
+
+# Shortcut for a module under development
+def dev(name, *args)
+  mod name, :path => "#{ENV['HOME']}/src/boxen/puppet-#{name}"
 end
 
 # Includes many of our custom types and providers, as well as global
@@ -18,7 +34,6 @@ github "boxen",      "3.3.4"
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "autoconf",   "1.0.0"
 github "dnsmasq",    "1.0.0"
 github "gcc",        "2.0.100"
 github "git",        "1.3.5"
