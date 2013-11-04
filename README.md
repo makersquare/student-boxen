@@ -6,7 +6,7 @@ Unfortunately, the below instructions only apply to folks running OS X. If you a
 
 ![Testimonial](https://f.cloud.github.com/assets/2220/1468788/82ce5ab4-4598-11e3-8eaf-1ec263c107be.png)
 
-<center><em>The reviews are in.</em></center>
+*The reviews are in.*
 
 ## Dependencies
 
