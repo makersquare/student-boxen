@@ -57,7 +57,7 @@ If you have already installed RVM or rbenv, then you'll need to uninstall it bef
 To uninstall RVM, just run the following in the terminal:
 
 ```console
-rm -rf ~/.rvm
+rvmsudo rvm implode
 ```
 
 To uninstall rbenv, just run the following in the terminal:
@@ -71,7 +71,7 @@ rbenv uninstall
 You'll also need to uninstall homebrew, if you have already installed it (if you don't know what homebrew is, then you probably haven't). To test for the presence of homebrew, just run `brew` at the terminal. If you see anything other than `command not found`, then you have it installed. To uninstall homebrew, run the following in the terminal:
 
 ```console
-curl -L https://gist.github.com/mxcl/1173223/raw/a833ba44e7be8428d877e58640720ff43c59dbad/uninstall_homebrew.sh | sh
+curl -L https://gist.github.com/mxcl/1173223/raw/a833ba44e7be8428d877e58640720ff43c59dbad/uninstall_homebrew.sh | sudo sh
 ```
 
 Don't worry, we`re about to reinstall it, along with everything else we need.
@@ -111,7 +111,7 @@ You're all set! Your setup is now mostly identical to the way our lab machines w
 ## What was installed?
 
 Quite a number of things, actually! Here are the highlights:
- 
+
 | Package                                             | Purpose                                                                      |
 | --------------------------------------------------- | ---------------------------------------------------------------------------- |
 | [homebrew](http://brew.sh/)                         | A "package manager" for OS X. Makes installing command-lines tools a snap.   |
