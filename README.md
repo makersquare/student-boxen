@@ -145,4 +145,4 @@ The most likely source of pain is forgetting to source the boxen environment:
 echo 'source /opt/boxen/env.sh' >> ~/.zshrc
 ```
 
-Questions/comments/concerns? Grab an instructor and let us know! If you're not behind the Big Blue Doors, just email mike or matt [at] themakersquare.com and we'll get you squared away.
+Questions/comments/concerns? Grab an instructor and let us know! If you're not behind the Big Blue Doors, just email mike or casey [at] themakersquare.com and we'll get you squared away.
