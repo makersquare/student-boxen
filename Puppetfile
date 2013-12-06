@@ -50,7 +50,7 @@ github "xquartz",    "1.1.2", :repo => "makersquare/puppet-xquartz"
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
 
-github "alfred",         "1.1.6"
+github "alfred",         "1.1.7"
 github "heroku",         "2.1.1"
 github "chrome",         "1.1.2"
 github "firefox",        "1.1.4"
