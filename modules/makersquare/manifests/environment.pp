@@ -23,7 +23,7 @@ class makersquare::environment {
   }
 
   class { 'nodejs::global':
-    version => 'v0.10.22'
+    version => 'v0.10.13'
   }
 
   include postgresapp
