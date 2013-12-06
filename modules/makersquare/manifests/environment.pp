@@ -5,7 +5,7 @@ class makersquare::environment {
   include sizeup
 
   include iterm2::stable
-  
+
   include zsh
   include heroku
   include sublime_text_2
@@ -19,11 +19,11 @@ class makersquare::environment {
   include dropbox
 
   class { 'ruby::global':
-    version => '2.0.0-p247'
+    version => '2.0.0-p353'
   }
 
   class { 'nodejs::global':
-    version => 'v0.10.13'
+    version => 'v0.10.22'
   }
 
   include postgresapp
